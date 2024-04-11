@@ -6,7 +6,7 @@ require_relative 'word_reader.rb'
 
 printer = ResultPrinter.new
 reader = WordReader.new
-slovo = reader.read_from_file('D:/kringe/RUBYTUT/lesson1/viselica/data/words.txt')
+slovo = reader.read_from_file('////')
 
 game = Game.new(slovo)
 
